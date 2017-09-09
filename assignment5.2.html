@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to display a dialog box which will ask for your input.</p>
+
+<button onclick="myFunction()">click</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var text;
+    var ch = prompt("enter the character");
+    switch(ch) {
+        case "a":
+        text = "vowel";
+        break;
+    case "e":
+        text = "vowel";
+        break;
+        case "i":
+        text = "vowel";
+        break;
+        case "o":
+        text = "vowel";
+        break;
+        case "u":
+        text = "vowel";
+        break;
+        default:
+        text = "consonent";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+</body>
+</html>
